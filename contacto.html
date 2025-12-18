@@ -28,7 +28,7 @@
     <p>Llena el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
     <br>
 
-    <div style="background-color: #f9f9f9; padding: 20px; border: 1px solid #ddd; width: 60%; margin: 0 auto;">
+    <div class="contenedor-formulario">
       <form action="#" method="post">
         <div class="campo">
           <label for="nombre">Nombre Completo:</label>
@@ -42,7 +42,7 @@
 
         <div class="campo">
           <label for="asunto">Asunto:</label>
-          <select id="asunto" name="asunto" style="width: 100%; padding: 8px;">
+          <select id="asunto" name="asunto" class="select-ancho">
             <option value="info">Información General</option>
             <option value="cotizacion">Solicitar Cotización</option>
             <option value="queja">Reclamo o Queja</option>
@@ -54,17 +54,15 @@
           <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
         </div>
 
-        <div style="text-align: center;">
-          <button type="submit" class="boton" style="border: none; cursor: pointer; font-size: 16px;">Enviar
-            Mensaje</button>
-          <button type="reset" class="boton"
-            style="background-color: #999; border: none; cursor: pointer; font-size: 16px;">Borrar</button>
+        <div class="texto-centrado">
+          <button type="submit" class="boton boton-enviar">Enviar Mensaje</button>
+          <button type="reset" class="boton boton-borrar">Borrar</button>
         </div>
       </form>
     </div>
 
     <br>
-    <div style="text-align: center;">
+    <div class="texto-centrado">
       <h3>También puedes visitarnos:</h3>
       <p>Av. Principal 123, Ciudad Segura.</p>
       <p>Teléfono: (555) 123-4567</p>
