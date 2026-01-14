@@ -26,10 +26,11 @@
     <br>
 
     <div class="contenedor-formulario">
-      <form action="#" method="post">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="d118c52c-5754-4c35-ad83-51937d3c5666">
         <div class="campo">
-          <label for="nombre">Nombre Completo:</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..." required>
+          <label for="name">Nombre Completo:</label>
+          <input type="text" id="name" name="name" placeholder="Escribe tu nombre..." required>
         </div>
 
         <div class="campo">
@@ -38,8 +39,8 @@
         </div>
 
         <div class="campo">
-          <label for="asunto">Asunto:</label>
-          <select id="asunto" name="asunto" class="select-ancho">
+          <label for="subject">Asunto:</label>
+          <select id="subject" name="subject" class="select-ancho">
             <option value="info">Información General</option>
             <option value="cotizacion">Solicitar Cotización</option>
             <option value="queja">Reclamo o Queja</option>
@@ -47,8 +48,8 @@
         </div>
 
         <div class="campo">
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
         </div>
 
         <div class="texto-centrado">
@@ -68,6 +69,17 @@
   </div>
 
   <footer>
+    <div class="social-icons">
+      <a href="" target="_blank" title="Facebook">
+        <img src="img/facebook.png" alt="Facebook">
+      </a>
+      <a href="#" target="_blank" title="Instagram">
+        <img src="img/instagram.png" alt="Instagram">
+      </a>
+      <a href="#" target="_blank" title="YouTube">
+        <img src="img/youtube.png" alt="YouTube">
+      </a>
+    </div>
     <p>Derechos Reservados &copy; 2025 Seguros Pelabolas</p>
     <p>Desarrollado por Maykol Campos</p>
   </footer>
